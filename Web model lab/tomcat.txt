@@ -1,0 +1,7 @@
+cd C:\apache-tomcat-10.1.54\apache-tomcat-10.1.54\bin
+
+catalina.bat run
+
+conn system/oracle123@localhost:1521/XEPDB1
+
+url: http://localhost:8080/jspcrud/
